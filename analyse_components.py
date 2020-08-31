@@ -3,7 +3,7 @@ from utils import dill_load, dill_dump, audio_length_per_model, won2020_default_
 import os
 import torch
 import random
-from training.eval import Predict
+import numpy as np
 
 models = ["fcn", "sample", "musicnn"]
 results = {}
